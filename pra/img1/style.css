@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img1/cv.avif);
+    background-size: cover;
+    background-position: center;
+}
+ul li {
+    color: aliceblue;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    color: orange;
+    transition: 2s;
+}
+.myphoto img{
+    left: 100px;
+    top: 100px;  
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid orange;
+}
+.content{
+    top:400px ;
+    left:300px ;
+    color: aliceblue;
+    position:absolute;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+h3{
+    color: orange;
+}
+.main {
+     height: 100vh;
+     width: 100%;
+     background-color: rgb(57, 52, 52);
+    color: rgb(247, 242, 242);
+    top: 500px;
+}
+.main img{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    left: 100px;
+}
+h2{
+    color: aliceblue;
+    top: 1250px;
+    left: 115px;
+    position: absolute;
+    font-size: 30px;
+}
+h4{
+    display: inline;
+}
+.main ul{
+    position: absolute;
+    left: 500px;
+    padding: 10px;
+}
+.main table{
+    position: absolute;
+    left: 600px;
+    width: 700px;
+    height: 600px;
+    padding: 10px;
+    
+}
+.main table td{
+    border: 2px solid white;
+    height:50px ;
+
+}
+.main table p{
+    padding: 10px;
+}
+.ex{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img1/ex.jfif);
+    background-size: cover;
+    
+}
+.ex h1{
+    position: absolute;
+    top: 1600px;
+    left: 35%;
+    color: orange;
+   
+}
+.ex h1:hover{
+    transition: 2s;
+    color: rgb(249, 248, 244);
+}
+.ex ol{
+    color: aliceblue;
+    position: absolute;
+    left: 300px;
+    top: 1700px;
+    width: 100%;
+    font-size: 35px;
+    
+}
+.ex ol:hover{
+    color: aquamarine;
+    transition: 2s;
+}
+.prj{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img1/istockphoto-1084539822-170667a.jpg);
+    background-size: cover;
+}
+.prj table{
+    position: absolute;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    top: 2400px;
+    
+}
+.prj table td{
+    border: 2px solid white;
+    height:30px ;
+    color: aqua;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.prj h2{
+    position: absolute;
+    top: 2300px;
+    color: orange;
+    font-size: 40px;
+    left: 200px;
+}
+.con{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img1/contact.jpg);
+    background-size: cover;
+}
+.con ul {
+    position: absolute;
+    top: 3300px;
+    left: 100px; 
+}
+.con ul li{
+    font-size: 30px;
+}
+.main p:hover{
+    color: orangered;
+    transition: 4s;
+
+}

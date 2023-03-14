@@ -1,0 +1,16 @@
+.col-4{
+    background-color: darkslategrey;
+    color: white;
+} 
+.col-8{
+    background-color:azure;
+   
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.container{
+    border: 1px solid black;
+}
